@@ -1,12 +1,14 @@
 {
-    "name": "secrets.js-grempe",
-    "version": "2.0.0",
-    "description": "Shamir's threshold secret sharing scheme for JavaScript.",
+    "name": "secrets-expo",
+    "version": "2.0.1",
+    "description": "Shamir's threshold secret sharing scheme for JavaScript (Expo).",
     "main": "secrets.js",
     "directories": {
         "example": "examples"
     },
-    "dependencies": {},
+    "dependencies": {
+        "expo-crypto": "^12.6.0"
+    },
     "devDependencies": {
         "grunt": "^1.0",
         "grunt-check-modules": "^1.0.0",
@@ -27,7 +29,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/grempe/secrets.js.git"
+        "url": "https://github.com/siwakawa/secrets.js"
     },
     "keywords": [
         "secret",
@@ -42,8 +44,8 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/grempe/secrets.js/issues"
+        "url": "https://github.com/siwakawa/secrets.js/issues"
     },
-    "homepage": "https://github.com/grempe/secrets.js",
+    "homepage": "https://github.com/siwakawa/secrets.js",
     "typings": "./secrets.js.d.ts"
 }
